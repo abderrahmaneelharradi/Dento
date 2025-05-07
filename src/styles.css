@@ -1,0 +1,718 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav__bar {
+  padding: 2rem 15rem;
+}
+.nav__bar .links a {
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 0 2rem;
+}
+.nav__bar .btn {
+  padding: 0.5rem 0.5rem;
+  border-radius: 0;
+  font-size: clamp(10px, 0.8rem, 1.5vw);
+  background-color: #00AEEF;
+  border: 0;
+  transition: 0.5s ease;
+}
+.nav__bar .btn:hover {
+  scale: 1.1;
+  background-color: #12556d;
+}
+
+.background {
+  background-image: url(/Dento/assets/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100dvw;
+}
+.background .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90dvh;
+  line-height: 2;
+  background-color: rgba(6, 62, 165, 0.5);
+  -webkit-backdrop-filter: blur(5px) brightness(0.7);
+          backdrop-filter: blur(5px) brightness(0.7);
+}
+.background .hero h1 {
+  color: white;
+  width: 80%;
+  justify-self: center;
+  font-size: clamp(16px, 4vw, 4rem);
+}
+.background .hero p {
+  margin-top: clamp(10px, 1vw, 1rem);
+  width: 70%;
+  justify-self: center;
+  color: #DBDDE3;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.background .hero .btn {
+  margin-top: 1rem;
+}
+.background .hero .btn-primary {
+  padding: 0.5rem 2rem;
+  border-radius: 0;
+  background-color: #00AEEf;
+  font-size: clamp(8px, 1rem, 1.5vw);
+  transition: 0.5s ease;
+  margin-right: 1rem;
+}
+.background .hero .btn-primary:hover {
+  scale: 1.1;
+  background-color: #12556d;
+  border: 0;
+}
+.background .hero .btn-secondary {
+  padding: 0.5rem 2rem;
+  border-radius: 0;
+  background-color: #00AEEf;
+  font-size: clamp(8px, 1rem, 1.5vw);
+  transition: 0.5s ease;
+  color: #05A2E0;
+  background-color: transparent;
+  border: 2px solid #05A2E0;
+}
+.background .hero .btn-secondary:hover {
+  border: 0;
+  scale: 1.1;
+  background-color: #12556d;
+}
+
+.aboutUs .container {
+  padding: 5rem 15rem;
+}
+.aboutUs .container .aboutUsTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
+}
+.aboutUs .container .aboutUsTop .topLeft img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.aboutUs .container .aboutUsTop .topRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutUs .container .aboutUsTop .topRight hr {
+  width: 15%;
+  height: 4px;
+  color: #00AEEf;
+  background-color: #00AEEF;
+  opacity: 1;
+}
+.aboutUs .container .aboutUsTop .topRight .sec-content {
+  margin-top: 1rem;
+  color: gray;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.aboutUs .container .aboutUsTop .topRight .rightExperience, .aboutUs .container .aboutUsTop .topRight .rightModern, .aboutUs .container .aboutUsTop .topRight .rightFriendly {
+  margin-top: 1rem;
+}
+.aboutUs .container .aboutUsTop .topRight .rightExperience p, .aboutUs .container .aboutUsTop .topRight .rightModern p, .aboutUs .container .aboutUsTop .topRight .rightFriendly p {
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+.aboutUs .container .aboutUsTop .topRight .progress {
+  border-radius: 0;
+  height: 10px;
+}
+.aboutUs .container .aboutUsTop .topRight .progress .prgress-bar {
+  background-color: #00AEEF;
+}
+.aboutUs .container .aboutUsHr {
+  margin-top: 2.5rem;
+  height: 1px;
+  background-color: gray;
+}
+.aboutUs .container .aboutUsBottom {
+  margin-top: 2rem;
+  align-items: center;
+  gap: 7rem;
+  justify-content: center;
+  text-align: center;
+}
+.aboutUs .container .aboutUsBottom div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutUs .container .aboutUsBottom div i {
+  color: #00AEEF;
+  background-color: white;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  height: 3rem;
+}
+.aboutUs .container .aboutUsBottom div h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 550;
+}
+.aboutUs .container .aboutUsBottom div h4 {
+  font-size: 1.5rem;
+  font-weight: 50;
+}
+
+.ourServicesBG {
+  background: url(/Dento/assets/images/osbg.jpg) no-repeat;
+  background-size: cover;
+}
+.ourServicesBG .container {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 14rem;
+}
+.ourServicesBG .ourServices {
+  background-color: rgba(6, 62, 165, 0.5);
+  -webkit-backdrop-filter: blur(5px) brightness(0.7);
+          backdrop-filter: blur(5px) brightness(0.7);
+}
+.ourServicesBG .ourServices .ourServicesRight h1 {
+  color: white;
+  font-weight: 500;
+}
+.ourServicesBG .ourServices .ourServicesRight hr {
+  width: 15%;
+  height: 4px;
+  color: #00AEEf;
+  background-color: #00AEEF;
+  opacity: 1;
+}
+.ourServicesBG .ourServices .ourServicesRight .rightIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem 2rem;
+}
+.ourServicesBG .ourServices .ourServicesRight .rightIcons p {
+  color: rgb(218, 214, 214);
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+.ourServicesBG .ourServices .ourServicesRight .rightIcons .icon {
+  width: 10rem;
+}
+.ourServicesBG .ourServices .ourServicesRight .rightIcons .icon img {
+  width: auto;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.ourServicesBG .ourServices .ourServicesLeft img {
+  max-width: 30rem;
+  max-height: 20rem;
+}
+
+.pricing .container {
+  padding: 5rem 10rem;
+}
+.pricing .container .pricingTop {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.pricing .container .pricingTop hr {
+  width: 15%;
+  height: 4px;
+  color: #00AEEf;
+  background-color: #00AEEF;
+  opacity: 1;
+  align-self: center;
+  width: 5%;
+  margin-bottom: 2rem;
+}
+.pricing .container .pricingTable thead {
+  border: 0;
+  color: white;
+}
+.pricing .container .pricingTable thead tr th {
+  border: 6px solid white;
+  padding: 0.7rem 2rem;
+}
+.pricing .container .pricingTable tbody {
+  border: 0;
+  color: #838383;
+}
+.pricing .container .pricingTable tbody tr td {
+  border: 6px solid white;
+  padding: 0.7rem 2rem;
+}
+.pricing .container .pricingBtn {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pricing .container .pricingBtn button {
+  padding: 0.5rem 2rem;
+  border-radius: 0;
+  background-color: #00AEEf;
+  font-size: clamp(8px, 1rem, 1.5vw);
+  transition: 0.5s ease;
+  color: white;
+  border: 0;
+}
+.pricing .container .pricingBtn button:hover {
+  scale: 1.1;
+  background-color: #12556d;
+}
+
+.bookAnApointmentBG {
+  background: url(/Dento/assets/images/babg.jpg) no-repeat;
+  background-size: cover;
+}
+.bookAnApointmentBG .bookAnApointment {
+  background-color: rgba(6, 62, 165, 0.5);
+  -webkit-backdrop-filter: blur(5px) brightness(0.7);
+          backdrop-filter: blur(5px) brightness(0.7);
+}
+.bookAnApointmentBG .bookAnApointment .container {
+  padding: 4rem 0;
+  text-align: center;
+}
+.bookAnApointmentBG .bookAnApointment .container .disabled::-moz-placeholder {
+  color: whitesmoke;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+.bookAnApointmentBG .bookAnApointment .container .disabled::placeholder {
+  color: whitesmoke;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApHeader h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApHeader hr {
+  width: 15%;
+  height: 4px;
+  color: #00AEEf;
+  background-color: #00AEEF;
+  opacity: 1;
+  width: 5%;
+  align-self: center;
+  margin-bottom: 2rem;
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApTop {
+  justify-content: center;
+  gap: 2rem;
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApTop .bookTopLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApTop .bookTopLeft input {
+  width: 30rem;
+  height: 3rem;
+  padding: 0.5rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 0;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApTop .bookTopRight {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApTop .bookTopRight input {
+  width: 30rem;
+  height: 3rem;
+  padding: 0.5rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 0;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApBottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApBottom textarea {
+  width: 62rem;
+  height: 6rem;
+  padding: 1rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 0;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApBtn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApBtn button {
+  padding: 0.5rem 2rem;
+  border-radius: 0;
+  background-color: #00AEEf;
+  font-size: clamp(8px, 1rem, 1.5vw);
+  transition: 0.5s ease;
+  margin-top: 2rem;
+  border: 0;
+}
+.bookAnApointmentBG .bookAnApointment .container .bookAnApBtn button:hover {
+  scale: 1.1;
+  background-color: #12556d;
+}
+
+.ourDentists .container {
+  padding: 5rem 15rem;
+}
+.ourDentists .container .ourDentistsHeader h1 {
+  text-align: center;
+}
+.ourDentists .container .ourDentistsHeader hr {
+  width: 15%;
+  height: 4px;
+  color: #00AEEf;
+  background-color: #00AEEF;
+  opacity: 1;
+  justify-self: center;
+  margin-bottom: 2rem;
+}
+.ourDentists .container .denImg {
+  background-color: #F4F4F4;
+}
+.ourDentists .container .denImg img {
+  width: 100%;
+}
+.ourDentists .container .dentists {
+  gap: 2rem;
+}
+.ourDentists .container .dentists .dentist-1, .ourDentists .container .dentists .dentist-2, .ourDentists .container .dentists .dentist-3 {
+  position: relative;
+}
+.ourDentists .container .dentists .denName {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  background-color: rgba(6, 62, 165, 0.5);
+  -webkit-backdrop-filter: blur(5px) brightness(0.7);
+          backdrop-filter: blur(5px) brightness(0.7);
+  text-align: center;
+  height: 4rem;
+  line-height: 0.5;
+  color: white;
+}
+.ourDentists .container .dentists .denName h2 {
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+.ourDentists .container .dentists .denName p {
+  color: rgb(182, 173, 173);
+}
+
+.footerBG {
+  background: url(/Dento/assets/images/footerbg.jpg) no-repeat center;
+  background-size: cover;
+  color: #F4F4F4;
+}
+.footerBG .footer {
+  background-color: rgba(6, 62, 165, 0.5);
+  -webkit-backdrop-filter: blur(5px) brightness(0.7);
+          backdrop-filter: blur(5px) brightness(0.7);
+}
+.footerBG .footer h2 {
+  color: white;
+  text-align: center;
+}
+.footerBG .footer p {
+  margin: 0;
+}
+.footerBG .footer .container {
+  padding: 5rem 10rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footerBG .footer .footerLeft {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.footerBG .footer .footerLeft img {
+  width: 60%;
+  margin-bottom: 1rem;
+}
+.footerBG .footer .footerLeft .footerText {
+  margin-bottom: 1rem;
+}
+.footerBG .footer .footerLeft .footerIcon {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.footerBG .footer .footerLeft .footerIcon i {
+  color: #00AEEF;
+}
+.footerBG .footer .footerLeftCenter {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footerBG .footer .footerRightCenter {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footerBG .footer .footerRight {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footerBG .footer .footerRight h2 {
+  text-align: start;
+}
+.footerBG .footer .footerRight p {
+  line-height: 2;
+}
+.footerBG .footer .footerRight .leftIpt {
+  margin-top: 0.5rem;
+  height: 2.5rem;
+  width: 15rem;
+  overflow: hidden;
+  background-color: #00AEEF;
+  border: 0 !important;
+  display: flex;
+  margin-bottom: 1rem;
+}
+.footerBG .footer .footerRight .leftIpt input {
+  height: 101%;
+}
+.footerBG .footer .footerRight .leftIpt .icon {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerBG .footer .footerRight .leftIpt .icon i {
+  color: white;
+  font-size: 1rem;
+}
+
+@media (max-width: 1400px) {
+  .aboutUs .container {
+    padding: 5rem;
+  }
+  .ourDentists .container {
+    padding: 5rem;
+  }
+}
+@media (max-width: 1312px) {
+  html {
+    font-size: 15px;
+  }
+  html .nav__bar {
+    padding: 1rem 10rem;
+  }
+  html .nav__bar .links a {
+    font-size: 1rem;
+  }
+  .footerBG .footer .container {
+    padding: 2rem 5rem;
+  }
+}
+@media (max-width: 990px) {
+  html {
+    font-size: 14px;
+  }
+  html .nav__bar {
+    padding: 1rem 5rem;
+  }
+  html .nav__bar .links a {
+    font-size: 1rem;
+  }
+  html .aboutUs .container {
+    padding: 3rem 7rem;
+  }
+  html .aboutUs .container h1 {
+    text-align: center;
+  }
+  html .aboutUs .container hr {
+    align-self: center;
+  }
+  html .aboutUs .container .aboutUsTop {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 2rem;
+  }
+  html .aboutUs .container .aboutUsTop .topLeft {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  html .aboutUs .container .aboutUsTop .topLeft img {
+    width: 80%;
+  }
+  html .aboutUs .container .aboutUsTop .topRight {
+    order: 1;
+    padding-top: 0;
+    justify-content: center;
+  }
+  html .aboutUs .container hr {
+    margin: 1rem;
+    width: 80%;
+    justify-self: center;
+  }
+  html .aboutUs .container .aboutUsBottom {
+    gap: 3rem;
+  }
+  html .aboutUs .container .aboutUsBottom div i {
+    font-size: 2.5rem;
+  }
+  html .aboutUs .container .aboutUsBottom div h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  html .aboutUs .container .aboutUsBottom div h4 {
+    font-size: 1rem;
+  }
+  html .ourServices .container {
+    flex-direction: column;
+    padding: 4rem 6rem;
+    gap: 4rem;
+  }
+  html .ourServices .container .ourServicesRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  html .ourServices .container .ourServicesRight hr {
+    margin-bottom: 2rem;
+  }
+  html .ourServices .container .ourServicesLeft {
+    display: none;
+  }
+  html .pricing .container {
+    padding: 5rem;
+  }
+  html .bookAnApointmentBG .bookAnApointment .container .bookAnApTop {
+    flex-direction: column;
+    align-items: center;
+  }
+  html .bookAnApointmentBG .bookAnApointment .container .bookAnApTop .bookTopLeft input {
+    width: 40rem;
+  }
+  html .bookAnApointmentBG .bookAnApointment .container .bookAnApTop .bookTopRight input {
+    width: 40rem;
+  }
+  html .bookAnApointmentBG .bookAnApointment .container .bookAnApBottom textarea {
+    width: 40rem;
+  }
+  html .ourDentists .container {
+    padding: 2rem 1rem;
+  }
+  html .footerBG .footer .container {
+    padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 1rem;
+  }
+  html .footerBG .footer .container .footerLeftCenter h2, html .footerBG .footer .container .footerRightCenter h2 {
+    text-align: start;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+  html .bookAnApointmentBG .bookAnApointment .container .bookAnApTop .bookTopLeft {
+    width: 100%;
+    align-items: center;
+  }
+  html .bookAnApointmentBG .bookAnApointment .container .bookAnApTop .bookTopLeft input {
+    width: 70%;
+  }
+  html .bookAnApointmentBG .bookAnApointment .container .bookAnApTop .bookTopRight {
+    width: 100%;
+    align-items: center;
+  }
+  html .bookAnApointmentBG .bookAnApointment .container .bookAnApTop .bookTopRight input {
+    width: 70%;
+  }
+  html .bookAnApointmentBG .bookAnApointment .container .bookAnApBottom textarea {
+    width: 70%;
+  }
+  html .ourDentists .container {
+    padding: 2rem 5rem;
+  }
+  html .ourDentists .container .dentists {
+    flex-direction: column;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 12px;
+  }
+  html .ourServicesBG .container {
+    padding: 6rem;
+  }
+  html .ourServicesBG .ourServices .ourServicesRight .rightIcons {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    place-items: center;
+  }
+  html .pricing .container {
+    padding: 2rem 8px;
+  }
+  html .footerBG .footer .container {
+    padding: 2rem 5rem;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+  html .footerBG .footer .container .footerLeft img {
+    align-self: center;
+  }
+  html .footerBG .footer .container .footerLeftCenter, html .footerBG .footer .container .footerRightCenter, html .footerBG .footer .container .footerRight {
+    gap: 4px;
+  }
+  html .footerBG .footer .container .footerLeftCenter h2, html .footerBG .footer .container .footerRightCenter h2, html .footerBG .footer .container .footerRight h2 {
+    text-align: center;
+  }
+  html .footerBG .footer .container .footerRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  html .footerBG .footer .container .footerRight .ficons i {
+    margin-left: 8px;
+  }
+}
+@media (max-width: 425px) {
+  html .nav__bar {
+    padding: 1rem;
+  }
+  html .aboutUs .container {
+    padding: 1rem 2rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
